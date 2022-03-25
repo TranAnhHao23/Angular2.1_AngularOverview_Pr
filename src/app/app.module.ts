@@ -10,6 +10,7 @@ import {AngularUsingBootstrapComponent} from "./angular-using-bootstrap/angular-
 import { SingleCalculatorComponent } from './single-calculator/single-calculator.component';
 import { ColorPickerModule } from 'ngx-color-picker';
 import { ColorPickerComponent } from './color-picker/color-picker.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ColorPickerComponent } from './color-picker/color-picker.component';
     ShowPetInfoComponent,
     AngularUsingBootstrapComponent,
     SingleCalculatorComponent,
-    ColorPickerComponent
+    ColorPickerComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

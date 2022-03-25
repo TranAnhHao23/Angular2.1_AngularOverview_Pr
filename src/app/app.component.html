@@ -2,4 +2,20 @@
 <!--<app-show-pet-info></app-show-pet-info>-->
 <!--<app-angular-using-bootstrap><app-angular-using-bootstrap>-->
 <!--<app-single-calculator></app-single-calculator>-->
-<app-color-picker></app-color-picker>
+<!--<app-color-picker></app-color-picker>-->
+
+<!--Truyền dữ liệu từ cha xuống con-->
+<!--<h2> @Input Example</h2>-->
+
+<!--<app-child [count]=Counter></app-child>-->
+
+<!--<button (click)="increment()">Increment</button>-->
+<!--<button (click)="decrement()">Increment</button>-->
+
+<!--Truyền dữ liệu từ con lên cha-->
+
+
+<h2>@Output Example</h2>
+<h4>Count Parent: {{countParent}}</h4>
+<app-child (countParent)="countChange($event)"></app-child>
+
